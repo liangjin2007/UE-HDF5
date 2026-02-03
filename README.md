@@ -1,12 +1,13 @@
 # UE-HDF5
 
-A UE HDF5 plugin based on https://github.com/HDFGroup/hdf5/tree/hdf5_2.0.0/.
+A UE HDF5 plugin based on .
 
 I wrote this plugin to support read in and write out 3d motion data. However, for it's simplicity, it can be modified to support any other purpose.
 
 Can work on UE5.6, not working on UE5.7.
 
-
+This code incorporates components from [hdf5] (https://github.com/HDFGroup/hdf5/tree/hdf5_2.0.0/),  which is licensed under [3-clause BSD License](https://github.com/HDFGroup/hdf5/blob/hdf5_2.0.0/LICENSE).  
+All derivative works must comply with the terms of the original license.
 
 ## Usage
 
