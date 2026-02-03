@@ -21,7 +21,7 @@ Take my 3d motion case as an example:
 
 FHDF5Motion HDF5Motion;
 
-HDF5Motion.ReadFile(InHDF5File);
+HDF5Motion.ReadFile(TEXT("test.hdf5"));
 
 // The hdf5 data
 const TMap<FString, TArray<TArray<float>>>& MotionObject = HDF5Motion.MotionObject;
@@ -40,10 +40,8 @@ TMap<FString, TArray<TArray<float>>>& MotionObject = HDF5Motion.MotionObject;
 
 // Setup any data to MotionObject
 
-HDF5Motion.WriteFile(OutHDF5File);
+HDF5Motion.WriteFile("test.hdf5");
 
 ```
 
-- Motion test data
-There is a motion test data test.hdf5 in the plugin root directory.
 
