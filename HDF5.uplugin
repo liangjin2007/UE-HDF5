@@ -1,0 +1,26 @@
+{
+	"FileVersion": 1,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HDF5",
+	"Description": "a UE support for HDF5 based on https://github.com/HDFGroup/hdf5/tree/hdf5_2.0.0/",
+	"Category": "",
+	"CreatedBy": "Liang Jin",
+	"CreatedByURL": "https://github.com/liangjin2007/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"EnabledByDefault": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HDF5",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"Platform": "Win64"
+		}
+	]
+}
